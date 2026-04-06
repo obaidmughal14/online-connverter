@@ -1,0 +1,41 @@
+.tools-archive-hero{padding:clamp(48px,8vw,80px) 0 24px;background:var(--bg-secondary);border-bottom:1px solid var(--border)}
+.tools-archive-hero h1{font-family:"Outfit",sans-serif;font-size:clamp(1.75rem,4vw,2.5rem)}
+.tool-cat-pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.cat-pill{padding:8px 14px;border-radius:999px;border:1px solid var(--border);text-decoration:none;font-size:.875rem;color:var(--text-secondary);background:var(--bg-card)}
+.cat-pill.active,.cat-pill:hover{border-color:var(--accent);color:var(--accent)}
+.tools-toolbar{margin-top:20px}
+.tools-filter-input{width:100%;max-width:400px;padding:12px 14px;border-radius:12px;border:1px solid var(--border);background:var(--bg-card);color:var(--text-primary)}
+.tools-archive-body{padding:32px 0 64px}
+.tools-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.tool-page-wrap{padding-bottom:64px}
+.tool-header{color:#fff;padding:clamp(32px,6vw,56px) 0}
+.breadcrumb{font-size:.875rem;opacity:.9;margin-bottom:16px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.breadcrumb a{color:#fff;text-decoration:underline}
+.bc-sep{opacity:.7}
+.tool-header-inner{display:flex;flex-wrap:wrap;gap:20px;align-items:flex-start;justify-content:space-between}
+.tool-icon-xl{font-size:3rem;line-height:1}
+.tool-header-text{flex:1;min-width:200px}
+.tool-header h1{font-family:"Outfit",sans-serif;font-size:clamp(1.75rem,4vw,2.75rem);margin-bottom:8px}
+.tool-description{opacity:.95;max-width:42rem}
+.tool-meta-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.meta-tag{background:rgba(255,255,255,.15);padding:6px 10px;border-radius:999px;font-size:.8rem}
+.tool-actions-header{display:flex;gap:10px;flex-wrap:wrap}
+.btn-favorite,.btn-share{padding:10px 16px;border-radius:12px;border:0;background:rgba(255,255,255,.2);color:#fff;font-weight:600;cursor:pointer}
+.tool-content-wrap{padding:40px 0}
+.tool-layout{display:grid;gap:24px}
+@media(min-width:1024px){.tool-layout{grid-template-columns:1fr 300px}}
+.tool-interface{background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:20px}
+.tool-textarea{width:100%;padding:12px;border-radius:12px;border:1px solid var(--border);background:var(--bg-primary);color:var(--text-primary);font-family:ui-monospace,monospace;font-size:.9rem}
+.tool-label{display:block;font-weight:600;margin:.75rem 0 .35rem}
+.tool-actions-row{margin:12px 0}
+.sidebar-card{background:var(--bg-card);border:1px solid var(--border);border-radius:14px;padding:16px;margin-bottom:16px}
+.sidebar-card h3{margin-bottom:10px;font-size:1rem}
+.how-to-steps{padding-left:1.1rem;line-height:1.5}
+.related-tools-list{display:flex;flex-direction:column;gap:8px}
+.related-tool-link{color:var(--accent);text-decoration:none;font-size:.9rem}
+.tool-description-full{margin-top:40px;max-width:800px}
+.tool-description-full h2{margin-bottom:12px;font-family:"Outfit",sans-serif}
+.tool-faq{margin-top:48px}
+.faq-item{border:1px solid var(--border);border-radius:12px;margin-bottom:10px;overflow:hidden;background:var(--bg-card)}
+.faq-question{width:100%;text-align:left;padding:14px 16px;background:transparent;border:0;font-weight:600;cursor:pointer;display:flex;justify-content:space-between;align-items:center;color:var(--text-primary)}
+.faq-answer{padding:0 16px 14px;color:var(--text-secondary);font-size:.95rem}

@@ -1,0 +1,4 @@
+/* Extra dark-mode polish — Devigon Tech deep purple base */
+[data-theme="dark"] .site-footer{background:#181124}
+[data-theme="dark"] .auth-message{background:#3d2430;color:#fecaca}
+[data-theme="dark"] .cta-strip{border-top-color:var(--border)}
